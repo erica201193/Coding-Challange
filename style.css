@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: url('background.jpg');
+  background-size: cover;
+  color: white;
+}
+.container{
+  width: 950px;
+  height: 680px;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 15px;
+  background: rgba(0, 0, 0, 0.5);
+}
+.logo{
+  width: 200px;
+  margin-top: 80px;
+}
+.logotext {
+  font-size: 24px;
+  color: #00dd00;
+}
+.buttonsbar{
+  width: 800px;
+  height: 35px;
+  margin:auto;
+  background-color: #00dd00;
+  position: relative;
+}
+.buttons{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+div > button{
+  font-size: 12px;
+  background-color: white;
+  padding: 0px 5px;
+}
+
+.lista{
+  width: 800px;
+  margin: auto;
+  text-align: left;
+}
+.square, .nome{
+  display: inline-block;
+}
+.square{
+height: 10px;
+width: 10px;
+background-color: white;
+border-radius: 2px;
+margin-top: 30px;
+margin-right: 2px;
+margin-left: 5px;
+}
+.nome{
+  font-size: 18px;
+}
+.posizione{
+  font-size: 13px;
+}
+.posizione:before{
+  content: "\21A6";
+  font-size: 16px;
+  }
+.barra{
+  height: 22px;
+  border-radius: 5px;
+}
+.barra.gino{
+  width: 280px;
+  background-color: #f5b453;
+}
+.barra.mike{
+  width: 480px;
+  background-color: #1ec31e;
+}
+.barra.fede{
+  width: 120px;
+  background-color: #be4141;
+}
